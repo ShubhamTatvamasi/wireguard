@@ -13,7 +13,6 @@ sudo systemctl status wg-quick@wg0
 ```
 
 
-
-https://github.com/ngoduykhanh/wireguard-ui/blob/master/docker-compose.yaml
+https://github.com/WeeJeWel/wg-easy
 
 
