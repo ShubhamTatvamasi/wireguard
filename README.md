@@ -1,5 +1,10 @@
 # wireguard
 
+https://github.com/WeeJeWel/wg-easy
+
+
+### OLD
+
 install wireguard:
 ```bash
 sudo apt install wireguard
@@ -13,6 +18,5 @@ sudo systemctl status wg-quick@wg0
 ```
 
 
-https://github.com/WeeJeWel/wg-easy
 
 
