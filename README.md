@@ -22,6 +22,11 @@ sudo wg-quick up Shubham
 sudo wg-quick down Shubham
 ```
 
+check status:
+```bash
+sudo wg show
+```
+
 ---
 
 ### OLD
