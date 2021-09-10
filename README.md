@@ -4,6 +4,26 @@ https://github.com/WeeJeWel/wg-easy
 
 ---
 
+### Ubuntu Client
+
+isntall wireguard tools:
+```bash
+sudo apt install wireguard-tools
+```
+
+place your config file in `/etc/wireguard/` like:
+```
+/etc/wireguard/Shubham.conf
+```
+
+add or remove VPN route:
+```bash
+sudo wg-quick up Shubham
+sudo wg-quick down Shubham
+```
+
+---
+
 ### OLD
 
 install wireguard:
