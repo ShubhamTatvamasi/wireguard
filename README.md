@@ -20,7 +20,7 @@ place your config file in `/etc/wireguard/` like:
 add or remove VPN route:
 ```bash
 sudo wg-quick up Shubham
-sudo wg-quick save Shubham_HP
+sudo wg-quick save Shubham
 sudo wg-quick down Shubham
 ```
 
