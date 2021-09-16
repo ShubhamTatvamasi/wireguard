@@ -9,6 +9,7 @@ https://github.com/WeeJeWel/wg-easy
 isntall wireguard tools:
 ```bash
 sudo apt install wireguard-tools
+sudo ln -s /usr/bin/resolvectl /usr/local/bin/resolvconf
 ```
 
 place your config file in `/etc/wireguard/` like:
