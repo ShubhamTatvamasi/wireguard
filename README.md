@@ -22,6 +22,8 @@ add or remove VPN route:
 sudo wg-quick up Shubham
 sudo wg-quick save Shubham
 sudo wg-quick down Shubham
+
+sudo systemctl enable wg-quick@Shubham
 ```
 
 check status:
