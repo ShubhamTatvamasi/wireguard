@@ -30,6 +30,18 @@ sudo wg show
 
 ---
 
+### Cron
+
+enable on auto start:
+```bash
+sudo crontab -e
+```
+```
+@reboot wg-quick up Shubham
+```
+
+
+
 ### OLD
 
 install wireguard:
