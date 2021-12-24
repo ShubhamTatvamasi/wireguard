@@ -1,6 +1,7 @@
 # wireguard
 
-https://github.com/WeeJeWel/wg-easy
+https://github.com/WeeJeWel/wg-easy \
+https://hub.docker.com/r/weejewel/wg-easy
 
 ---
 
