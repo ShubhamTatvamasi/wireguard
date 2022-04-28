@@ -9,8 +9,7 @@ https://hub.docker.com/r/weejewel/wg-easy
 
 isntall wireguard tools:
 ```bash
-sudo apt install wireguard-tools
-sudo ln -s /usr/bin/resolvectl /usr/local/bin/resolvconf
+sudo apt install wireguard-tools resolvconf
 ```
 
 place your config file in `/etc/wireguard/` like:
