@@ -1,0 +1,20 @@
+serverAddr = "wireguard.shubhamtatvamasi.com"
+serverPort = 7000
+
+[[proxies]]
+name = "wireguard_vpn"
+type = "udp"
+localPort = 51820
+remotePort = 51820
+
+[[proxies]]
+name = "wireguard_shubhamtatvamasi_com_http"
+type = "http"
+localPort = 80
+customDomains = ["wireguard.shubhamtatvamasi.com"]
+
+[[proxies]]
+name = "wireguard_shubhamtatvamasi_com_https"
+type = "https"
+localPort = 443
+customDomains = ["wireguard.shubhamtatvamasi.com"]
