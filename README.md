@@ -31,6 +31,13 @@ check status:
 sudo wg show
 ```
 
+Setup resolvconf on Ubuntu 24.04
+```bash
+sudo rm -f /etc/resolv.conf
+sudo ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
+sudo reboot
+```
+
 ### OLD
 
 install wireguard:
@@ -43,13 +50,6 @@ start wireguard:
 sudo systemctl enable wg-quick@wg0
 sudo systemctl start wg-quick@wg0
 sudo systemctl status wg-quick@wg0
-```
-
-Setup resolvconf on Ubuntu 24.04
-```bash
-sudo rm -f /etc/resolv.conf
-sudo ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf
-sudo reboot
 ```
 
 ---
