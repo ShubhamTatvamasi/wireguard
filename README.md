@@ -3,6 +3,12 @@
 https://github.com/WeeJeWel/wg-easy \
 https://hub.docker.com/r/weejewel/wg-easy
 
+generate hashed `password`:
+```bash
+docker run --rm -it ghcr.io/wg-easy/wg-easy wgpw password
+```
+> Add additional `$` if you are using docker-compose
+
 ---
 
 ### Ubuntu Client
