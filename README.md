@@ -6,9 +6,10 @@ https://github.com/wg-easy/wg-easy/blob/master/How_to_generate_an_bcrypt_hash.md
 
 generate hashed `password`:
 ```bash
-docker run --rm -it ghcr.io/wg-easy/wg-easy wgpw password
+docker run --rm -it ghcr.io/wg-easy/wg-easy wgpw 'password'
 ```
-> Add additional `$` if you are using docker-compose
+> replace each `$` symbol with two `$$` symbols,
+> don't wrap the generated hash password in single quotes
 
 ---
 
