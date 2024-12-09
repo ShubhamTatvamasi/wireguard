@@ -1,7 +1,8 @@
 # wireguard
 
-https://github.com/WeeJeWel/wg-easy \
-https://hub.docker.com/r/weejewel/wg-easy
+https://github.com/wg-easy/wg-easy
+
+https://github.com/wg-easy/wg-easy/pkgs/container/wg-easy
 
 generate hashed `password`:
 ```bash
