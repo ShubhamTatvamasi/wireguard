@@ -2,8 +2,6 @@
 
 https://github.com/wg-easy/wg-easy
 
-https://github.com/wg-easy/wg-easy/pkgs/container/wg-easy
-
 https://github.com/wg-easy/wg-easy/blob/master/How_to_generate_an_bcrypt_hash.md
 
 generate hashed `password`:
