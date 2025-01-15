@@ -24,6 +24,7 @@ place your config file in `/etc/wireguard/` like:
 ```
 /etc/wireguard/Shubham.conf
 ```
+> Note: Remove DNS line from .conf file in ubuntu 24.04
 
 add or remove VPN route:
 ```bash
