@@ -4,6 +4,11 @@ https://github.com/wg-easy/wg-easy
 
 https://github.com/wg-easy/wg-easy/blob/master/How_to_generate_an_bcrypt_hash.md
 
+Generate a random password:
+```bash
+openssl rand -hex 64
+```
+
 generate hashed `password`:
 ```bash
 docker run --rm -it ghcr.io/wg-easy/wg-easy wgpw 'password'
