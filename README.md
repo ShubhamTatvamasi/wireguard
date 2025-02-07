@@ -7,10 +7,7 @@ https://github.com/wg-easy/wg-easy/blob/master/How_to_generate_an_bcrypt_hash.md
 Set password:
 ```bash
 WG_PASSWORD=$(openssl rand -hex 64)
-
 docker run --rm -it ghcr.io/wg-easy/wg-easy wgpw $WG_PASSWORD > .env
-sed -i 's/\$/$$/g' .env
-
 # print password
 echo $WG_PASSWORD
 ```
