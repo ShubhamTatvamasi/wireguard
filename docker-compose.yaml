@@ -4,7 +4,7 @@ services:
       # ⚠️ Required:
       # Change this to your host's public address
       - WG_HOST=wireguard.shubhamtatvamasi.com
-      - PASSWORD_HASH=$$2a$$12$$n9lWie4W41prZIgdR748xOiw6YNVEJcsbI37kfuQc90R9NkGpYDSO
+      - PASSWORD_HASH=${PASSWORD_HASH}
       - WG_DEFAULT_DNS=8.8.8.8,8.8.4.4
       - WG_ALLOWED_IPS=10.3.0.0/16
 
