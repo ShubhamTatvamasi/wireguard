@@ -15,6 +15,16 @@ sed -i 's/\$/$$/g' .env
 echo $WG_PASSWORD
 ```
 
+Set host:
+```bash
+echo "WG_HOST=wireguard.shubhamtatvamasi.com" >> .env
+```
+
+Set allowed IPs:
+```bash
+echo "WG_ALLOWED_IPS=10.3.0.0/16" >> .env
+```
+
 ---
 
 generate hashed `password`:

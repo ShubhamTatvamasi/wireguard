@@ -3,10 +3,10 @@ services:
     environment:
       # ⚠️ Required:
       # Change this to your host's public address
-      - WG_HOST=wireguard.shubhamtatvamasi.com
+      - WG_HOST=${WG_HOST}
       - PASSWORD_HASH=${PASSWORD_HASH}
       - WG_DEFAULT_DNS=8.8.8.8,8.8.4.4
-      - WG_ALLOWED_IPS=10.3.0.0/16
+      - WG_ALLOWED_IPS=${WG_ALLOWED_IPS}
 
       # Optional:
       # - PASSWORD_HASH=$$2y$$10$$hBCoykrB95WSzuV4fafBzOHWKu9sbyVa34GJr8VV5R/pIelfEMYyG # (needs double $$, hash of 'foobar123'; see "How_to_generate_an_bcrypt_hash.md" for generate the hash)
