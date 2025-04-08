@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Generate a random WireGuard password
-WG_PASSWORD=$(openssl rand -hex 64)
+# WG_PASSWORD=$(openssl rand -hex 64)
+WG_PASSWORD=$(pwgen 128 1)
 
 # Generate a hashed password using wg-easy and extract only the hash value
 WG_PASSWORD_HASH=$(docker run --rm ghcr.io/wg-easy/wg-easy wgpw "$WG_PASSWORD" | awk -F"'" '{print $2}')
